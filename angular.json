@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -88,7 +88,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -124,5 +124,10 @@
   "defaultProject": "spotify",
   "cli": {
     "analytics": "a86549f5-f592-4fb4-a91d-00263b8bcdc8"
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+    "styleext": "scss"
   }
+}
 }
